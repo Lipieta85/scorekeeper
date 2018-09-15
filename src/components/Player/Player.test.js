@@ -16,12 +16,12 @@ it('renders correct name', () => {
 });
 
 it('renders the score', () => {
-    const playersScorePassed = 10;
-    const playerComponent = shallow(<Player score={playersScorePassed} />);
+    const playerScorePassed = 10;
+    const playerComponent = shallow(<Player score={playerScorePassed} />);
 
-    const playersScoreRendered = Number(playerComponent.find(".Player_score").text())
-
-    expect(playersScoreRendered).toEqual(playersScorePassed);
+    const playersScoreRendered = Number(playerComponent.find('.Player__score').text());
+    
+    expect(playersScoreRendered).toEqual(playerScorePassed);
 });
 
 it('should call onPlayerScoreChange with 1 when plus button is clicked', () => {

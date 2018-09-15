@@ -47,7 +47,7 @@ class App extends Component {
       players: this.state.players.filter((player, i) => i !== playerIndex)
     });
   };
-
+  
   render() {
     return (
       <div className='App'>
