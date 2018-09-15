@@ -1,0 +1,42 @@
+.Player {
+    display: flex;
+    border: 1px solid black;
+    font-weight: bold;
+  }
+
+  .Player:nth-child(even) {
+    background-color: #5AA9AB;
+  }
+  .Player:nth-child(odd) {
+    background-color: #B12344;
+  }
+
+  .Player__name {
+    width: 150px;
+    padding: 10px 0;
+    border: 1px solid black;
+  }
+
+  .Player__score {
+    width: 30px;
+    padding: 10px 0;
+    border: 1px solid black;
+  }
+
+  .Player__button {
+    width: 30px;
+    padding: 10px 0;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  .Player__button:last-child {
+    width: 110px;
+    padding: 10px 0;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+
+
+

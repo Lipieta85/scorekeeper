@@ -1,0 +1,20 @@
+.AddPlayer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.AddPlayer__input {
+  width: 300px;
+  border: 2px solid black;
+  padding: 10px 0;
+  background-color: #9A9AD8;
+}
+
+.AddPlayer__submit {
+  width: 46px;
+  border: 2px solid black;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #9A9AD8;
+}
